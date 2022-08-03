@@ -20,6 +20,7 @@
 		6A378441BE80399C37306265 /* Pods_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D47E3ED03B906B15F6F3DAC2 /* Pods_App.framework */; };
 		6A41A90F2E646A10E136D1D0 /* Pods_App_AppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88A0EB5E04EC1E3AF32C0840 /* Pods_App_AppTests.framework */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		9F62CCAD289A6758004406CC /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9F62CCAF289A6758004406CC /* Localizable.strings */; };
 		9F8D731D26EA0A68008E01B5 /* libswiftWebKit.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F8D731C26EA0A68008E01B5 /* libswiftWebKit.tbd */; };
 /* End PBXBuildFile section */
 
@@ -64,6 +65,8 @@
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = App/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		88A0EB5E04EC1E3AF32C0840 /* Pods_App_AppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_App_AppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F0FA9BAD79642C95920096E /* Pods-App-AppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App-AppTests.release.xcconfig"; path = "Target Support Files/Pods-App-AppTests/Pods-App-AppTests.release.xcconfig"; sourceTree = "<group>"; };
+		9F62CCAE289A6758004406CC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		9F62CCB0289A67BF004406CC /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		9F8D731C26EA0A68008E01B5 /* libswiftWebKit.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libswiftWebKit.tbd; path = usr/lib/swift/libswiftWebKit.tbd; sourceTree = SDKROOT; };
 		D47E3ED03B906B15F6F3DAC2 /* Pods_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
@@ -135,6 +138,7 @@
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
+				9F62CCAF289A6758004406CC /* Localizable.strings */,
 			);
 			name = App;
 			sourceTree = "<group>";
@@ -319,6 +323,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hant",
 			);
 			mainGroup = 83CBB9F61A601CBA00E9B192;
 			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
@@ -346,6 +351,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				9F62CCAD289A6758004406CC /* Localizable.strings in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -690,6 +696,18 @@
 			targetProxy = 2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9F62CCAF289A6758004406CC /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F62CCAE289A6758004406CC /* en */,
+				9F62CCB0289A67BF004406CC /* zh-Hant */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
